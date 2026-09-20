@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Temporary files
+*.log
+*.tmp
+
+# Generated files
+outputs/
+results/
+temp/
+
+# Model/cache files
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Local storage
+storage/
+
+# Personal/private data
+*.pdf
+*.docx
